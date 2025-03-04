@@ -1,0 +1,38 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Personal secrets & credentials
+/.ssh/
+/.aws/
+/.kube/
+/.gnupg/
+/.git-credentials
+/.netrc
+/.password-store/
+
+# System & cache files
+.Trash/
+/.cache/
+/local/
+/.history
+/Library/Caches/
+/Library/Preferences/com.apple.*
+
+# Editor & IDE junk
+/.vscode/
+/.idea/
+/*.swp
+
+# Logs & temp files
+/logs/
+*.log
+*.bak
+*.tmp
+*.old
