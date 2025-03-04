@@ -86,13 +86,13 @@
             "keyColor": "blue"
         },
         {
-            "type": "custom",
-            "format": "│  ├ Terminal Font: JetBrainsMono Nerd Font",
-            "outputColor": "blue"
+               "type": "terminalfont",
+            "key": "│  ├ Terminal Font",
+           "keyColor": "blue",
         },
         {
-            "type": "custom",
-            "format": "└  └ Terminal: ghostty",
+            "type": "terminal",
+            "key": "└  └ Terminal",
             "keyColor": "blue"
         },
         {
