@@ -1,0 +1,14 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*~
+
+*.swp
+*.swo
+
+.undodir/
+
+.session/
+
+.env

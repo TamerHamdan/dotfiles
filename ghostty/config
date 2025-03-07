@@ -1,0 +1,9 @@
+# Ghostty Config
+
+theme = tokyonight
+
+background-opacity = 0.9
+background-blur-radius = 20
+
+font-size = "15"
+
