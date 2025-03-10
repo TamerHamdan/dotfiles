@@ -5,7 +5,7 @@ Welcome to my dotfiles! I use this repo as a way to practice Git and document my
 ## ⚡ What's in here?  
 - My Neovim config (Kickstart-based, but evolving).  
 - Terminal tweaks and shell configs.  
-- other apps and configs and trying out.  
+- other apps and configs i'm trying out.  
 
 ![ScreenshotV1](https://raw.githubusercontent.com/TamerHamdan/dotfiles/main/images/screenshots/updatedV1.png)
 
