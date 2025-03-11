@@ -5,7 +5,8 @@ Welcome to my dotfiles! I use this repo as a way to practice Git and document my
 ## ⚡ What's in here ?  
 - My Neovim config (Kickstart-based but evolving).  
 - Terminal setups and scripts.  
-- Other apps & customizations that make my workflow smoother.  
+- Other apps & customizations that make my workflow smoother.
+- Screenshorts and wallpapaers (I yonked those wallpapers, I obv dont own thei just they are pretty)
 
 ![Screenshot](https://raw.githubusercontent.com/TamerHamdan/dotfiles/main/images/screenshots/updatedV1.png)  
 
