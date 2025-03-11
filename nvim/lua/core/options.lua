@@ -43,3 +43,14 @@ vim.o.fileencoding = "utf-8" -- Default file encoding
 -- Additional Settings
 vim.opt.shortmess:append("c") -- Suppress extra messages
 vim.opt.iskeyword:append("-") -- Treat hyphenated words as one
+
+-- Highlight when yanking (copying) text
+--  Try it with `yap` in normal mode
+--  See `:help vim.highlight.on_yank()`
+vim.api.nvim_create_autocmd("TextYankPost", {
+	desc = "Highlight when yanking (copying) text",
+	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
+	callback = function()
+		vim.highlight.on_yank()
+	end,
+})
