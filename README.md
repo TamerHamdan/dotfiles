@@ -1,6 +1,6 @@
 # 🛠️ Dotfiles  
 
-Welcome to my dotfiles! I use this repo as a way to practice Git and document my journey while figuring out my ideal development environment. Expect constant tweaks, experiments, and occasional breakage. 😅  
+Welcome to my dotfiles! I use this repo as a way to practice Git and document my journey of figuring out my ideal development environment. Expect constant tweaks, experiments, and occasional breakage. 😅  
 
 ## ⚡ What's in here ?  
 - My Neovim config (Kickstart-based but evolving).  
