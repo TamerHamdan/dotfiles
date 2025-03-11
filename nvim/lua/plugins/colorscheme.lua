@@ -8,5 +8,6 @@ return {
 			},
 		})
 		vim.cmd("colorscheme rose-pine")
-	end
+		vim.api.nvim_set_hl(0, "Comment", { fg = "#deffda" })
+	end,
 }
