@@ -1,8 +1,24 @@
 # Ghostty Config
 
+shell-integration = zsh
 theme = rose-pine
 
 background-opacity = 0.9
 background-blur-radius = 50
 
 font-size = "15"
+font-family = JetBrains Mono
+mouse-hide-while-typing = true
+scrollback-limit = 1000000
+
+window-save-state = always
+
+# Keybindings 
+
+keybind = super+h=goto_split:left
+keybind = super+j=goto_split:bottom
+keybind = super+k=goto_split:top
+keybind = super+l=goto_split:right
+
+keybind = super+r=reload_config
+
