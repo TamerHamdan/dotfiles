@@ -8,7 +8,7 @@ Welcome to my dotfiles! I use this repo as a way to practice Git and document my
 - Other apps & customizations that make my workflow smoother.
 - Screenshots and Wallpapaers (I yonked those wallpapers, I obv dont own them just they are pretty)
 
-![Screenshot](https://raw.githubusercontent.com/TamerHamdan/dotfiles/main/screenshots/updatedV1.png)  
+![Screenshot](https://raw.githubusercontent.com/TamerHamdan/dotfiles/main/screenshots/V1.png)  
 
 ## 🚀 Why?  
 Because finding th ideal DEV setup is an ongoing process, and this repo helps me track my progress while keeping things organized.  
