@@ -1,12 +1,14 @@
 # Ghostty Config
 
 shell-integration = zsh
-theme = rose-pine
 
+# Theme, font and feel
+
+theme = rose-pine
 background-opacity = 0.9
 background-blur-radius = 50
 
-font-size = "15"
+font-size = "16"
 font-family = JetBrains Mono
 mouse-hide-while-typing = true
 scrollback-limit = 1000000
