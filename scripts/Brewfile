@@ -1,19 +1,18 @@
-tap "homebrew/bundle"
-tap "nikitabobko/tap"
-brew "autoconf"
-brew "autoconf-archive"
-brew "automake"
-brew "ccache"
-brew "cmake"
-brew "curl"
-brew "fastfetch"
-brew "figlet"
-brew "lua"
-brew "nasm"
+# Core utilities
+brew "git"          # Version control
+brew "zsh"          # Shell
+brew "curl"         # Command line tool for data transfer
+brew "htop"         # Inteactive process viewer
+
+# C Development Tools
+brew "make"          # Tool to build and manage projects
+brew "pkg-config"    # Helper tool for managing library compile/link flags
+brew "gdb"           # GNU debugger for debugging C programs
+
+# Terminal Essentials 
+cask "ghostty"      # Terminal emulator 
 brew "neovim"
-brew "pkgconf"
-brew "utf8proc", args: ["HEAD"]
-brew "yarn"
-cask "aerospace"
-cask "font-hack-nerd-font"
-cask "raycast"
+
+# GUI tools
+cask "aerospace"   # Developer app for your workflow
+cask "raycast"     # App launcher and productivity tool
