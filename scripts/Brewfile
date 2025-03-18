@@ -1,6 +1,5 @@
 # Tap repositories
 tap "homebrew/bundle"
-tap "nikitabobko/tap"
 
 # Core Utilities
 brew "git"                 # Version control system

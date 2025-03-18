@@ -16,7 +16,6 @@ alias ..='cd ..'
 alias ...='cd ...'
 
 # Git #
-alias g='git'          
 alias ga='git add .'
 alias gc='git commit -m'
 alias gpm='git push origin main'
