@@ -4,6 +4,7 @@
 alias v='nvim'
 alias c='clear' 
 alias x='exit'               
+alias t='tmux'
 
 # Language Specific #
 alias py='python3'
