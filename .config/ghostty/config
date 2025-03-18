@@ -9,7 +9,7 @@ background-opacity = 0.9
 background-blur-radius = 50
 
 font-size = "16"
-font-family = JetBrains Mono
+font-family = JetBrains Mono Nerd Font 
 mouse-hide-while-typing = true
 scrollback-limit = 1000000
 
@@ -17,10 +17,5 @@ window-save-state = always
 
 # Keybindings 
 
-#keybind = super+h=goto_split:left
-#keybind = super+j=goto_split:bottom
-#keybind = super+k=goto_split:top
-#keybind = super+l=goto_split:right #MOVED TO TMUX 
-
-keybind = super+r=reload_config
+keybind = alt+r=reload_config
 
