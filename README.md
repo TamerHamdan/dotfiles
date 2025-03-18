@@ -4,7 +4,7 @@ Welcome to my dotfiles!
 I use this repo to practice Git + GitHub and document my journey of finding my ideal development environment.  
 
 ## 📂 What's Inside?  
-- **Neovim** (Kickstart-based, evolving)  
+- **Neovim** (Kickstart-based, but evolving)  
 - **Tmux / Ghostty / Fastfetch / Aerospace / .zshrc** (Minimalist configs)  
 - **Scripts & tweaks** for a smoother workflow  
 
