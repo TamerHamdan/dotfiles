@@ -15,6 +15,6 @@ I use this repo to practice Git + GitHub and document my journey of finding my i
 ---
 
 ## ⚙️ How to Use?  
-Drop it into your home folder or take the parts you like!  
+Just dump repo into your home folder or take the parts you like!  
 
 Feel free to explore, borrow, or contribute! 
