@@ -15,7 +15,7 @@ title = " "
 macos-titlebar-proxy-icon = hidden
 
 window-save-state = always
-
+confirm-close-surface = false 
 # —————————————————————————————————————————————————
 #                   Keymaps
 # —————————————————————————————————————————————————
