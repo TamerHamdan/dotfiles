@@ -1,5 +1,4 @@
 # —————————————————————————————————————————————————
-#             —— Ghostty Config ——
 #            Theme, Font, and Feel
 # —————————————————————————————————————————————————
 
@@ -18,7 +17,7 @@ macos-titlebar-proxy-icon = hidden
 window-save-state = always
 
 # —————————————————————————————————————————————————
-#                Ghostty Keymaps
+#                   Keymaps
 # —————————————————————————————————————————————————
 
 keybind = super+r=reload_config
