@@ -18,5 +18,6 @@ I like to keep things minimal and close to default for easier maintainability, a
 
 ### ⚙️ How to Use?  
 Just dump files into your home folder or take the parts you like.
+Working on adding dependencies...
 
 Feel free to explore, borrow, or contribute! 
