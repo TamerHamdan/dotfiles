@@ -4,7 +4,7 @@
 ---
 I use this repo to practice Git + GitHub and document my journey of finding my ideal development environment.  
 
-### 👾 What's im here ?  
+### 👾 What's in here ?  
 - **Neovim** (Kickstart-based, but evolving)  
 - **Tmux / Ghostty / Aerospace / .zshrc...** (Minimalist configs)  
 - **Scripts** for a smoother workflow  
