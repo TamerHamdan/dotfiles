@@ -27,7 +27,6 @@ brew "neovim"              # Vim-based text editor
 brew "tmux"                # Terminal multiplexer
 brew "fzf"                 # Fuzzy finder for the terminal
 
-
 # Other Development Tools
 brew "utf8proc", args: ["HEAD"] # Library for UTF-8 processing
 

@@ -1,13 +1,14 @@
-# ~~~~~~~~~~~~~ Ghostty Config ~~~~~~~~~~~~~
-#
-# Theme, font and feel
+# —————————————————————————————————————————————————
+#             —— Ghostty Config ——
+#            Theme, Font, and Feel
+# —————————————————————————————————————————————————
 
 theme = rose-pine
 background-opacity = 0.9
 background-blur-radius = 50
 
 font-size = "16"
-font-family = JetBrains Mono Nerd Font 
+font-family = JetBrains Mono Nerd Font
 mouse-hide-while-typing = true
 scrollback-limit = 1000000
 
@@ -16,7 +17,8 @@ macos-titlebar-proxy-icon = hidden
 
 window-save-state = always
 
-# ~~~~~~~~~~~~~ Ghostty  Keymaps ~~~~~~~~~~~~~
+# —————————————————————————————————————————————————
+#                Ghostty Keymaps
+# —————————————————————————————————————————————————
 
 keybind = super+r=reload_config
-
