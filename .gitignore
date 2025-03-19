@@ -2,13 +2,4 @@
 .AppleDouble
 .LSOverride
 
-*~
-
-*.swp
-*.swo
-
-.undodir/
-
-.session/
-
 .env
