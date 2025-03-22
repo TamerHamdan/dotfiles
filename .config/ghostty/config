@@ -1,23 +1,17 @@
-# —————————————————————————————————————————————————
-#            Theme, Font, and Feel
-# —————————————————————————————————————————————————
-
+# ———————————————————— DISPLAY ————————————————————————
 theme = rose-pine
 background-opacity = 0.9
 background-blur-radius = 50
-
 font-size = "16"
 font-family = JetBrains Mono Nerd Font
-mouse-hide-while-typing = true
-scrollback-limit = 1000000
-
 title = " "
 macos-titlebar-proxy-icon = hidden
 
+# ———————————————————— INTERACTION ————————————————————
+mouse-hide-while-typing = true
+scrollback-limit = 1000000
 window-save-state = always
-confirm-close-surface = false 
-# —————————————————————————————————————————————————
-#                   Keymaps
-# —————————————————————————————————————————————————
+confirm-close-surface = false
 
+# ———————————————————— KEYBINDINGS ————————————————————
 keybind = super+r=reload_config
