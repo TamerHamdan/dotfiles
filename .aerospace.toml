@@ -1,3 +1,5 @@
+# ———————————————————— LOGIN & STARTUP ————————————————————
+#
 # You can use it to add commands that run after login to macOS user session.
 # 'start-at-login' needs to be 'true' for 'after-login-command' to work
 # Available commands: https://nikitabobko.github.io/AeroSpace/commands
@@ -11,6 +13,9 @@ after-startup-command = []
 # Start AeroSpace at login
 start-at-login = true
 
+
+# ———————————————————— LAYOUT SETTINGS ————————————————————
+#
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
 enable-normalization-opposite-orientation-for-nested-containers = true
@@ -31,11 +36,17 @@ default-root-container-orientation = 'auto'
 # Mouse follows focus when focused monitor changes
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
+
+# ———————————————————— KEY MAPPING ————————————————————
+#
 # Possible values: (qwerty|dvorak)
 # See https://nikitabobko.github.io/AeroSpace/guide#key-mapping
 [key-mapping]
 preset = 'qwerty'
 
+
+# ———————————————————— GAPS ————————————————————
+#
 # Gaps between windows (inner-*) and between monitor edges (outer-*).
 #                 https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 
@@ -47,6 +58,9 @@ outer.bottom =     0
 outer.top =        0
 outer.right =      0
 
+
+# ———————————————————— KEYBINDINGS ————————————————————
+#
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented
@@ -75,7 +89,6 @@ alt-minus = 'resize smart -50'
 alt-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-
 alt-1 = 'workspace 1'
 alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
@@ -93,7 +106,6 @@ alt-c = 'workspace C'
 alt-f = 'workspace F'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-
 alt-shift-1 = 'move-node-to-workspace 1'
 alt-shift-2 = 'move-node-to-workspace 2'
 alt-shift-3 = 'move-node-to-workspace 3'
@@ -110,13 +122,11 @@ alt-shift-x = 'move-node-to-workspace X'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-f = 'move-node-to-workspace F'
 
-
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'
+
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-workspace-to-monitor
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
 alt-shift-semicolon = 'mode service'
-
-
