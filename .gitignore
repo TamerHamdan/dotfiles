@@ -1,5 +1,21 @@
-.DS_Store
-.AppleDouble
-.LSOverride
+# ———————————————————— Dotfiles gitignore ————————————————————
 
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+*~
+*.bak
+*.swp
+*.swo
+.ssh/id_*
+.ssh/known_hosts
+*.pem
+*.key
 .env
+.env.*
+!.env.example
+.history/
+*.log
+*.sqlite
