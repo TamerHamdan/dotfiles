@@ -37,7 +37,7 @@ brew "fzf" # Fuzzy finder for the terminal (from old file)
 brew "gh" # GitHub CLI for managing repositories
 brew "gitleaks" # Detect secrets in codebases
 
-GUI Tools
+# GUI Tools
 
 cask "aerospace" # Developer app for your workflow
 cask "raycast" # App launcher and productivity tool
