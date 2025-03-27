@@ -1,0 +1,26 @@
+# ———————————————————— global gitignore for mac & linux ————————————————————
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.directory
+.Trash-*
+.fuse_hidden*
+.nfs*
+*~
+*.bak
+.*.swp
+.*.swo
+*.swp
+*.swo
+.netrwhist
+tmux-client-*.log
+.env
+.env.*
+!.env.example
+*.log
+.tmp/
+tmp/ 
