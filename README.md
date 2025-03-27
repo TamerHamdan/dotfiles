@@ -13,12 +13,11 @@ I use this repo to practice Git + GitHub and document my journey of finding my i
 ![Sc](https://github.com/TamerHamdan/images/raw/main/screenshots/dotfilesV1.png)  
 
 ---
-I like to keep things minimal and close to default for easier maintainability, adaptability, and portability :D  
-This devflow focuses more on (vi) **keyboard-based programming**  
-
+I like to keep things minimal and close to default for easier maintainability & portability!  
+This devflow focuses more on **keyboard-based programming** (Vi)  
 
 ### ⚙️ How to Use?  
-
+**This will symlink all the dotfiles to your home directory. :D**  
 1. Install GNU Stow:
    ```bash
    # macOS
@@ -38,10 +37,8 @@ This devflow focuses more on (vi) **keyboard-based programming**
    ```bash
    stow .
    ```
-
-
-This will symlink all the dotfiles to your home directory. :D
-Working on adding dependencies...
+----
+Working on adding dependencies...  
 
 Feel free to explore, borrow, or contribute! 
 
