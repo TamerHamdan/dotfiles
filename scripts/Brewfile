@@ -1,38 +1,47 @@
-# Tap repositories
-tap "homebrew/bundle"
+# Tap Repositories
+tap "homebrew/bundle" # Manage Homebrew dependencies
+
 
 # Core Utilities
-brew "git"                 # Version control system
-brew "htop"                # Interactive process viewer
-brew "curl"                # Command line tool for data transfer
-brew "figlet"              # Command-line text generator
-brew "ripgrep"             # Fast search tool for large codebases
-brew "yarn"                # Package manager for JavaScript
+brew "git" # Version control system
+brew "htop" # Interactive process viewer
+brew "curl" # Command-line tool for data transfer
+brew "figlet" # Command-line text generator
+brew "ripgrep" # Fast search tool for large codebases
+brew "yarn" # Package manager for JavaScript
+brew "tree" # Display directory structures in a tree format
+brew "fastfetch" # System information fetcher
+
 
 # C Development Tools
-brew "autoconf"            # Configuration tool
-brew "autoconf-archive"    # Archive of autoconf macros
-brew "automake"            # Tool for generating Makefiles
-brew "ccache"              # Compiler cache for faster builds
-brew "cmake"               # Cross-platform build system
-brew "pkgconf"             # Helper tool for managing compile/link flags
-brew "nasm"                # Assembler for x86/x86_64
+brew "autoconf" # Configuration tool
+brew "autoconf-archive" # Archive of autoconf macros
+brew "automake" # Tool for generating Makefiles
+brew "ccache" # Compiler cache for faster builds
+brew "cmake" # Cross-platform build system
+brew "pkgconf" # Helper tool for managing compile/link flags
+brew "nasm" # Assembler for x86/x86_64
+
 
 # Programming Languages
-brew "lua"                 # Lua scripting language
+brew "lua" # Lua scripting language
+brew "zig" # Modern programming language for safety and performance
+
 
 # NeoVim and Dev Tools
-brew "fastfetch"           # System information fetcher
-brew "neovim"              # Vim-based text editor
-brew "tmux"                # Terminal multiplexer
-brew "fzf"                 # Fuzzy finder for the terminal
 
-# Other Development Tools
-brew "utf8proc", args: ["HEAD"] # Library for UTF-8 processing
+brew "neovim" # Vim-based text editor
+brew "tmux" # Terminal multiplexer
+brew "fzf" # Fuzzy finder for the terminal (from old file)
 
-# GUI Tools
-cask "aerospace"           # Developer app for your workflow
-cask "raycast"             # App launcher and productivity tool
+brew "gh" # GitHub CLI for managing repositories
+brew "gitleaks" # Detect secrets in codebases
+
+GUI Tools
+
+cask "aerospace" # Developer app for your workflow
+cask "raycast" # App launcher and productivity tool
+
 
 # Fonts
-cask "font-jetbrains-mono-nerd-font"  # JetBrains Mono Nerd Font
+cask "font-hack-nerd-font" # Hack Nerd Font for coding and terminal use
