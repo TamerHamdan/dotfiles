@@ -1,9 +1,9 @@
-## T's Dotfiles 
+## Unix Dotfiles 
 
 Welcome to my dotfiles!  
 I use this repo to practice Git + GitHub and document my journey of finding my ideal development environment.  
 
-### 👾 What's in here ?  
+### What's in here ?  
 - **Neovim** (Kickstart-based, but evolving)  
 - **Tmux / Ghostty / Aerospace WM / .zshrc...** (Minimalist configs)  
 - **Scripts** 
@@ -14,7 +14,10 @@ I use this repo to practice Git + GitHub and document my journey of finding my i
 I like to keep things minimal and close to default for easier maintainability & portability!  
 This devflow focuses more on **keyboard-based programming** (Vi)  
 ##
-### ⚙️ How to Use? its super simple 
+
+<details>
+<summary><h2>How to Use? its super simple ⤵︎ </h2></summary>
+
 1. Install GNU Stow:
    ```bash
    # macOS
@@ -24,20 +27,19 @@ This devflow focuses more on **keyboard-based programming** (Vi)
    sudo apt install stow
    ```
 
-2. Clone this repo to your home directory:
+2. Clone this repo to your home directory then just stow it!
    ```bash
    git clone https://github.com/TamerHamdan/dotfiles.git ~/dotfiles
    cd dotfiles
-   ```
-
-3. Use Stow to create symlinks:
-   ```bash
    stow .
    ```
    **This will symlink all the dotfiles to your home directory. :D**  
 
+
+</details>
+
 <details>
-<summary><h3>Using My folder structure (Optional)</h3></summary>
+<summary><h2>Using My folder structure (Optional) ⤵︎ </h2></summary>
    
 Just run the bash script 
 ```bash
@@ -46,8 +48,7 @@ Just run the bash script
 
 </details>
 
-----
+##
 Working on adding dependencies...  
-
 Feel free to explore, borrow, or contribute! 
 
