@@ -8,16 +8,13 @@ I use this repo to practice Git + GitHub and document my journey of finding my i
 - **Tmux / Ghostty / Aerospace WM / .zshrc...** (Minimalist configs)  
 - **Scripts** 
 
----
 
 ![Sc](https://github.com/TamerHamdan/images/raw/main/screenshots/dotfilesV1.png)  
 
----
 I like to keep things minimal and close to default for easier maintainability & portability!  
 This devflow focuses more on **keyboard-based programming** (Vi)  
-
-### ⚙️ How to Use?  
-**This will symlink all the dotfiles to your home directory. :D**  
+##
+### ⚙️ How to Use? its super simple 
 1. Install GNU Stow:
    ```bash
    # macOS
@@ -37,6 +34,18 @@ This devflow focuses more on **keyboard-based programming** (Vi)
    ```bash
    stow .
    ```
+   **This will symlink all the dotfiles to your home directory. :D**  
+
+<details>
+<summary><h3>Using My folder structure</h3></summary>
+   
+Just run the bash script 
+```bash
+   bash dirSetup.sh
+   ```
+
+</details>
+
 ----
 Working on adding dependencies...  
 
