@@ -1,47 +1,45 @@
 # Tap Repositories
 tap "homebrew/bundle" # Manage Homebrew dependencies
 
-
 # Core Utilities
-brew "git" # Version control system
-brew "htop" # Interactive process viewer
-brew "curl" # Command-line tool for data transfer
-brew "figlet" # Command-line text generator
-brew "ripgrep" # Fast search tool for large codebases
-brew "yarn" # Package manager for JavaScript
-brew "tree" # Display directory structures in a tree format
-brew "fastfetch" # System information fetcher
+brew "git" # Version control 
+brew "htop" # Process viewer
+brew "curl" # Data transfer tool
+brew "fastfetch" # System info fetcher
+brew "stow" # File Stower ??
 
+# Developer
+brew "neovim" # Text editor
+brew "tmux" # Terminal multiplexer
+brew "fzf" # Fuzzy finder
+brew "tree" # Directory visualizer
+brew "yarn" # JS package manager
+brew "ripgrep" # Fast search tool
+brew "figlet" # ASCII art generator
+brew "tree-sitter" # Parser generator
+brew "gh" # GitHub CLI
+brew "gitleaks" # Accidental Secret Scanner
 
 # C Development Tools
 brew "autoconf" # Configuration tool
-brew "autoconf-archive" # Archive of autoconf macros
-brew "automake" # Tool for generating Makefiles
-brew "ccache" # Compiler cache for faster builds
-brew "cmake" # Cross-platform build system
-brew "pkgconf" # Helper tool for managing compile/link flags
+brew "autoconf-archive" # Autoconf macros
+brew "automake" # Makefile generator
+brew "ccache" # Compiler cache
+brew "cmake" # Build system
+brew "pkgconf" # Compiler/linker flags helper
 brew "nasm" # Assembler for x86/x86_64
 
-
 # Programming Languages
-brew "lua" # Lua scripting language
-brew "zig" # Modern programming language for safety and performance
+brew "lua" # Scripting language
+brew "zig" # Systems programming language
 
-
-# NeoVim and Dev Tools
-
-brew "neovim" # Vim-based text editor
-brew "tmux" # Terminal multiplexer
-brew "fzf" # Fuzzy finder for the terminal (from old file)
-
-brew "gh" # GitHub CLI for managing repositories
-brew "gitleaks" # Detect secrets in codebases
-
-# GUI Tools
-
-cask "aerospace" # Developer app for your workflow
-cask "raycast" # App launcher and productivity tool
-
+# Casks
+cask "aerospace" # Window Manager 
+cask "raycast" # Spotlight alternative
+cask "ghostty" # Terminal emulator
+cask "spotify" # Music 
+cask "ticktick" # To-Do manager
+cask "zen-browser" # Web browser
 
 # Fonts
-cask "font-hack-nerd-font" # Hack Nerd Font for coding and terminal use
+cask "font-jetbrains-mono-nerd-font" # Coding font
