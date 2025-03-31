@@ -39,9 +39,20 @@ This devflow focuses more on **keyboard-based programming** (Vi)
 </details>
 
 <details>
-<summary><h2>Using My folder structure (Optional) ⤵︎ </h2></summary>
+<summary><h2>Dev Folder Structure (Optional) ⤵︎ </h2></summary>
+
+   If u wanna use my Dir struct :
+
+```
+~/Developer
+├── Repos
+├── Scripts
+├── Temp
+├── Uni
+└── Working
+```
    
-Just run the bash script 
+   Just run the bash script 
 ```bash
    bash dirSetup.sh
    ```
