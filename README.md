@@ -37,7 +37,7 @@ This devflow focuses more on **keyboard-based programming** (Vi)
    **This will symlink all the dotfiles to your home directory. :D**  
 
 <details>
-<summary><h3>Using My folder structure</h3></summary>
+<summary><h3>Using My folder structure (Optional)</h3></summary>
    
 Just run the bash script 
 ```bash
