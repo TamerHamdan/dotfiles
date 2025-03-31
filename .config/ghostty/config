@@ -1,17 +1,30 @@
-# ———————————————————— DISPLAY ————————————————————————
+# ———————————————————— Look & Feel ————————————————————————
+#
+# Theme 
 theme = rose-pine
 background-opacity = 0.9
 background-blur-radius = 50
+
+# Font 
 font-size = "16"
 font-family = JetBrains Mono Nerd Font
+
+# Title 
 title = " "
 macos-titlebar-proxy-icon = hidden
 
-# ———————————————————— INTERACTION ————————————————————
-mouse-hide-while-typing = true
+# Cursor 
+cursor-style = block_hollow 
+shell-integration-features = no-cursor
+
+# Behaviour 
 scrollback-limit = 1000000
+mouse-hide-while-typing = true
+
+# Preference
 window-save-state = always
 confirm-close-surface = false
 
-# ———————————————————— KEYBINDINGS ————————————————————
+# ———————————————————— KEYBINDINGS ———————————————————————
+#
 keybind = super+r=reload_config
