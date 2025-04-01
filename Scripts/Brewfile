@@ -1,45 +1,46 @@
-# Tap Repositories
-tap "homebrew/bundle" # Manage Homebrew dependencies
+# Taps # 
+tap "homebrew/bundle"
+tap "nikitabobko/tap"
 
-# Core Utilities
-brew "git" # Version control 
-brew "htop" # Process viewer
-brew "curl" # Data transfer tool
-brew "fastfetch" # System info fetcher
-brew "stow" # File Stower ??
+# CLI Tools # 
+brew "neovim"
+brew "tmux"
+brew "fastfetch"
 
-# Developer
-brew "neovim" # Text editor
-brew "tmux" # Terminal multiplexer
-brew "fzf" # Fuzzy finder
-brew "tree" # Directory visualizer
-brew "yarn" # JS package manager
-brew "ripgrep" # Fast search tool
-brew "figlet" # ASCII art generator
-brew "tree-sitter" # Parser generator
-brew "gh" # GitHub CLI
-brew "gitleaks" # Accidental Secret Scanner
+brew "curl"
+brew "tree"
+brew "stow"
+brew "ripgrep"
+brew "figlet"
 
-# C Development Tools
-brew "autoconf" # Configuration tool
-brew "autoconf-archive" # Autoconf macros
-brew "automake" # Makefile generator
-brew "ccache" # Compiler cache
-brew "cmake" # Build system
-brew "pkgconf" # Compiler/linker flags helper
-brew "nasm" # Assembler for x86/x86_64
+# Git/hub tools #
+brew "gh"
+brew "gitleaks"
+brew "git-filter-repo"
 
-# Programming Languages
-brew "lua" # Scripting language
-brew "zig" # Systems programming language
+# Language Support # 
+brew "lua"
+brew "zig"
 
-# Casks
-cask "aerospace" # Window Manager 
-cask "raycast" # Spotlight alternative
-cask "ghostty" # Terminal emulator
-cask "spotify" # Music 
-cask "ticktick" # To-Do manager
-cask "zen-browser" # Web browser
+# C Development #  
+brew "autoconf"
+brew "autoconf-archive"
+brew "automake"
+brew "ccache"
+brew "cmake"
+brew "pkgconf"
+brew "nasm"
+brew "sdl2"
+brew "utf8proc", args: ["HEAD"]
 
-# Fonts
-cask "font-jetbrains-mono-nerd-font" # Coding font
+# Web Development # 
+brew "yarn"
+
+# Casks #
+cask "aerospace"
+cask "font-jetbrains-mono-nerd-font"
+cask "ghostty"
+cask "raycast"
+cask "spotify"
+cask "zen-browser"
+
