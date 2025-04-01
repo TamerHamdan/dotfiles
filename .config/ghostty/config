@@ -13,10 +13,6 @@ font-family = JetBrains Mono Nerd Font
 title = " "
 macos-titlebar-proxy-icon = hidden
 
-# Cursor 
-cursor-style = block_hollow 
-shell-integration-features = no-cursor
-
 # Behaviour 
 scrollback-limit = 1000000
 mouse-hide-while-typing = true
