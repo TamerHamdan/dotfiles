@@ -1,7 +1,7 @@
 # ———————————————————— Look & Feel ————————————————————————
 #
 # Theme 
-theme = rose-pine
+theme = tokyonight
 background-opacity = 0.9
 background-blur-radius = 50
 
