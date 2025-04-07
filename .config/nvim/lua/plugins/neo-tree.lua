@@ -3,7 +3,7 @@ return {
 	version = "*",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
-		"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+		"nvim-tree/nvim-web-devicons",   -- not strictly required, but recommended
 		"MunifTanjim/nui.nvim",
 	},
 	cmd = "Neotree",
@@ -16,6 +16,12 @@ return {
 				mappings = {
 					["\\"] = "close_window",
 				},
+			},
+			filtered_items = {
+				visible = true,     -- When true, hidden files will be shown
+				show_hidden_count = true,
+				hide_dotfiles = false,
+				hide_gitignored = false,
 			},
 		},
 	},
