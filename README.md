@@ -38,26 +38,7 @@ This devflow focuses more on **keyboard-based programming** (Vi)
 
 </details>
 
-<details>
-<summary><h2>Dev Folder Structure (Optional) ⤵︎ </h2></summary>
 
-   If u wanna use my Developer Dir struct :
-
-```
-~/Developer
-├── Repos
-├── Scripts
-├── Temp
-├── Uni
-└── Working
-```
-   
-   Just run the bash script - This will Create Developer directory with subfolder then move Script dir to it.
-```bash
-   bash dirSetup.sh
-   ```
-
-</details>
 
 ##
 Working on adding dependencies...  
