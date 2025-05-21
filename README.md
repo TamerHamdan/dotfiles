@@ -9,7 +9,7 @@ I use this repo to practice Git + GitHub and document my journey of finding my i
 - **Scripts** 
 
 
-![Sc](https://github.com/TamerHamdan/images/raw/main/screenshots/dotfilesV1.png)  
+![Sc](https://github.com/TamerHamdan/screenshots/blob/main/dotfiles/dotfilesV1.png?raw=true)  
 
 I like to keep things minimal and close to default for easier maintainability & portability!  
 This devflow focuses more on **keyboard-based programming** (Vi)  
