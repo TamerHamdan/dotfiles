@@ -12,13 +12,16 @@ source $ZSH/oh-my-zsh.sh
 # Set to superior editing mode
 bindkey -v
 
+# Automatically change to dev directory on terminal open
+cd ~/dev
+
 # ———————————————————— ALIASES ————————————————————
 #
 # Most Used #
 alias v='nvim'
 alias t='tmux'
 alias c='clear' 
-alias x='exit'               
+alias q='quit'               
 
 # Navigation #
 alias ..='cd ..'
@@ -34,6 +37,6 @@ alias gs='git status'
 alias py='python3'
 alias cc='clang' # [C]ompile [C]
 
-# Extra #
+# Reload Config #
 alias r='source ~/.'
 
