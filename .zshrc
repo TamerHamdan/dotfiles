@@ -12,9 +12,6 @@ source $ZSH/oh-my-zsh.sh
 # Set to superior editing mode
 bindkey -v
 
-# Automatically change to dev directory on terminal open
-cd ~/dev
-
 # ———————————————————— ALIASES ————————————————————
 #
 # Most Used #
