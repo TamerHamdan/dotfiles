@@ -7,6 +7,7 @@ brew "neovim"
 brew "tmux"
 brew "fastfetch"
 
+brew "gh"
 brew "curl"
 brew "tree"
 brew "stow"
@@ -20,7 +21,7 @@ brew "git-filter-repo"
 
 # Language Support # 
 brew "lua"
-brew "zig"
+brew "python"
 
 # C Development #  
 brew "autoconf"
@@ -33,14 +34,14 @@ brew "nasm"
 brew "sdl2"
 brew "utf8proc", args: ["HEAD"]
 
-# Web Development # 
-brew "yarn"
-
 # Casks #
 cask "aerospace"
+casl "karabiner-elements"
 cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
 cask "raycast"
 cask "spotify"
-cask "zen-browser"
+cask "zen"
+cask "docker"
+
 
