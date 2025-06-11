@@ -1,0 +1,41 @@
+# ~~~~~~~~~~~~~ User Info ~~~~~~~~~~~~~
+[user]
+    name = NAME
+    email = EMAIL / PRIVATE EMAIL KEY 
+
+# ~~~~~~~~~~~~~ Editor, UI, Sort ~~~~~~~~~~~~~
+[core]
+    editor = nvim
+
+[column]
+    ui = auto
+
+[help]
+    autocorrect = prompt
+
+[branch]
+    sort = -committerdate
+
+[tag]
+    sort = version:refname
+
+# ~~~~~~~~~~~~~ Git Behavior ~~~~~~~~~~~~~
+[init]
+    defaultBranch = main
+
+[push]
+    default = simple
+    autoSetupRemote = true
+
+[fetch]
+    prune = true
+
+[commit]
+    verbose = true
+
+[diff]
+    algorithm = histogram
+
+[rerere]
+    enabled = true
+ 
