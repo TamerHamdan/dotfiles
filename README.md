@@ -10,7 +10,7 @@ My aim is minimal friction between having a thought and building it.
 - Custom scripts
 
 ### Preview
-![Dotfiles Preview](https://github.com/TamerHamdan/screenshots/blob/main/dotfiles/dotfilesV1.png?raw=true)
+![Dotfiles Preview](https://github.com/TamerHamdan/repo-media/blob/main/dotfiles/dotfilesV1.png?raw=true)
 
 ### Usage / Installation  
 
