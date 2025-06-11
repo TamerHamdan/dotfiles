@@ -29,7 +29,7 @@ alias ga='git add .'
 alias gc='git commit -m'
 alias gpm='git push origin main'
 alias gs='git status'
-
+alias gpl='git pull origin main'
 # Language Specific #
 alias py='python3'
 alias cc='clang' # [C]ompile [C]
