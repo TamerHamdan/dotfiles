@@ -21,5 +21,5 @@ for dir in "${FOLDERS[@]}"; do
 done
 
 # Create dev folder structure inside $HOME/dev
-mkdir -p "$HOME/dev"/{.archive,configs,resources,temp,oss,studies,working}
+mkdir -p "$HOME/dev"/{archive,configs,resources,temp,studies,working}
 echo "Created dev folder structure at $HOME/dev"
