@@ -1,4 +1,5 @@
-# ———————————————————— oh-my-zsh ——————————————————
+# ~~~~~~~~~~~~~~~ oh-my-zsh ~~~~~~~~~~~~~~~ #
+#
 # Path to your Oh My Zsh installation, Using Default config. 
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -7,22 +8,36 @@ ZSH_THEME="robbyrussell"
 
 source $ZSH/oh-my-zsh.sh
 
-# ———————————————————— CONFIG ————————————————————
+# ~~~~~~~~~~~~~~~ CONFIG ~~~~~~~~~~~~~~~~ #
 #
 # Set to superior editing mode
 bindkey -v
 
-# ———————————————————— ALIASES ————————————————————
+# History settings
+HISTSIZE=10000
+SAVEHIST=10000
+setopt HIST_IGNORE_SPACE
+
+# Case insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
+# Editor
+export EDITOR='nvim'
+export VISUAL='nvim'
+export BROWSER='zen' 
+
+# ~~~~~~~~~~~~~~~ ALIASES ~~~~~~~~~~~~~~~ #
 #
 # Most Used #
 alias v='nvim'
 alias t='tmux'
 alias c='clear' 
-alias q='quit'               
-
+alias q='exit' 
+              
 # Navigation #
 alias ..='cd ..'
 alias ...='cd ...'
+alias -- -='cd -'  # Go to previous directory
 
 # Git #
 alias ga='git add .'
@@ -30,10 +45,16 @@ alias gc='git commit -m'
 alias gpm='git push origin main'
 alias gs='git status'
 alias gpl='git pull origin main'
+alias gd='git diff'
+
 # Language Specific #
 alias py='python3'
 alias cc='clang' # [C]ompile [C]
 
 # Reload Config #
-alias r='source ~/.'
+alias r='source ~/.zshrc'  
 
+# Open nvim in tmux # 
+vv() {
+    [ -z "$TMUX" ] && tmux new-session "nvim $*" || tmux new-window "nvim $*"
+}

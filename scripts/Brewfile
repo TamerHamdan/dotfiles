@@ -2,6 +2,10 @@
 tap "homebrew/bundle"
 tap "nikitabobko/tap"
 
+# Language Support # 
+brew "lua"
+brew "python" 
+
 # CLI Tools # 
 brew "neovim"
 brew "tmux"
@@ -11,17 +15,19 @@ brew "gh"
 brew "curl"
 brew "tree"
 brew "stow"
-brew "ripgrep"
 brew "figlet"
+
+# Neovim #
+brew "tree-sitter"
+brew "ripgrep"
+
+# LSP # 
+brew "lua-language-server"
 
 # Git/hub tools #
 brew "gh"
 brew "gitleaks"
 brew "git-filter-repo"
-
-# Language Support # 
-brew "lua"
-brew "python"
 
 # C Development #  
 brew "autoconf"
@@ -43,5 +49,5 @@ cask "raycast"
 cask "spotify"
 cask "zen"
 cask "docker"
-
+cask "bluestacks"
 

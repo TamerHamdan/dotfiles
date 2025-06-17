@@ -1,26 +1,84 @@
-# ———————————————————— global gitignore for mac & linux ————————————————————
+# ~~~~~~~~~~~~~~~~~~~~~~ Global Gitignore Mac/Linux ~~~~~~~~~~~~~~~~~~~~~~ #
 
+# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
+.DS_Store?
 ._*
+.AppleDouble
 .Spotlight-V100
 .Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# Linux
+*~
 .directory
 .Trash-*
-.fuse_hidden*
 .nfs*
-*~
-*.bak
-.*.swp
-.*.swo
+.fuse_hidden*
+
+# Neovim/Vim
 *.swp
 *.swo
+*.tmp
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+Sessionx.vim
 .netrwhist
-tmux-client-*.log
+tags
+[._]*.un~
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.cursor/
+
+# System Files
+*.log
+*.pid
+*.out
+.cache/
+
+# Shell History
+.bash_history
+.zsh_history
+.lesshst
+
+# Dependencies
+node_modules/
+.npm/
+.yarn/
+.pnp/
+bower_components/
+
+# Environment
 .env
 .env.*
-!.env.example
-*.log
-.tmp/
-tmp/ 
+.envrc
+
+# Build Output
+*.o
+*.so
+*.dll
+*.dylib
+dist/
+build/
+*.egg-info/
+
+# Version Control
+*.orig
+*.rej
+
+# Security & Keys
+*.key
+*.pem
+*.p12
+*.crt
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+.ssh/
+.gnupg/

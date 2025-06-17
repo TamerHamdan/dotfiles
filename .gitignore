@@ -1,21 +1,79 @@
-# ———————————————————— Dotfiles gitignore ————————————————————
+# ~~~~~~~~~~~~~~~~~~~~~~~~~ Dotfiles Gitignore ~~~~~~~~~~~~~~~~~~~~~~~~~ #
+# Ignore everything by default
+*
+!*/
+# Include specific files that are currently in the repo
+!.gitignore
+!.gitignore_global
+!.zshrc
+!.gitconfig
+!README.md
 
+# Include .config directory but ignore its contents by default
+!.config/
+.config/*
+
+# Selectively include specific config apps that are currently in repo
+!.config/aerospace/
+!.config/aerospace/**
+!.config/fastfetch/
+!.config/fastfetch/**
+!.config/ghostty/
+!.config/ghostty/**
+!.config/karabiner/
+!.config/karabiner/**
+!.config/nvim/
+!.config/nvim/**
+!.config/tmux/
+!.config/tmux/**
+   
+# Include scripts 
+!scripts/**
+
+# System/privacy stuff
+
+# macOS
+**/.DS_Store
 .DS_Store
 ._*
 .Spotlight-V100
 .Trashes
+
+# Windows
 Thumbs.db
+desktop.ini
+
+# Linux
 *~
-*.bak
-*.swp
-*.swo
-.ssh/id_*
-.ssh/known_hosts
+.directory
+.Trash-*
+
+# SSH and security files
 *.pem
 *.key
+*.p12
+*.crt
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+.ssh/
+.gnupg/
+
+# Environment and secrets
 .env
-.env.*
-!.env.example
-.history/
+.env.local
+.env.*.local
 *.log
-*.sqlite
+auth.json
+secrets.json
+credentials.json
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.cache/
+.history/
+.zsh_history
+.bash_history

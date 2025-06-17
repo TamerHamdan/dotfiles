@@ -1,9 +1,9 @@
-# ———————————————————— Look & Feel ————————————————————————
+# ~~~~~~~~~~~~~~~~~~~~ Look & Feel ~~~~~~~~~~~~~~~~~~~~
 #
 # Theme 
-theme = tokyonight
-background-opacity = 0.9
-background-blur-radius = 50
+theme = rose-pine
+# background-opacity = 0.9
+# background-blur-radius = 50
 
 # Font 
 font-size = "20"
@@ -18,9 +18,9 @@ scrollback-limit = 1000000
 mouse-hide-while-typing = true
 
 # Preference
-window-save-state = always
+# window-save-state = always
 confirm-close-surface = false
 
-# ———————————————————— KEYBINDINGS ———————————————————————
+# ~~~~~~~~~~~~~~~~~~~~ KEYBINDINGS ~~~~~~~~~~~~~~~~~~~~
 #
 keybind = super+r=reload_config

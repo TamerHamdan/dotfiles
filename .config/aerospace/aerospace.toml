@@ -1,4 +1,4 @@
-# ———————————————————— LOGIN & STARTUP ————————————————————
+# ~~~~~~~~~~~~~~~ LOGIN & STARTUP ~~~~~~~~~~~~~~~ #
 after-login-command = []
 
 after-startup-command = []
@@ -7,15 +7,12 @@ after-startup-command = []
 start-at-login = true
 
 
-# ———————————————————— LAYOUT SETTINGS ————————————————————
+# ~~~~~~~~~~~~~~~ LAYOUT SETTINGS ~~~~~~~~~~~~~~~ #
 #
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
 enable-normalization-opposite-orientation-for-nested-containers = true
 
-# See: https://nikitabobko.github.io/AeroSpace/guide#layouts
-# The 'accordion-padding' specifies the size of accordion padding
-# You can set 0 to disable the padding feature
 accordion-padding = 30
 
 # Possible values: tiles|accordion
@@ -30,35 +27,22 @@ default-root-container-orientation = 'auto'
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
 
-# ———————————————————— KEY LAYOUT ————————————————————
-#
-# Possible values: (qwerty|dvorak)
-# See https://nikitabobko.github.io/AeroSpace/guide#key-mapping
+# ~~~~~~~~~~~~~~~ KEY LAYOUT ~~~~~~~~~~~~~~~ #
 [key-mapping]
 preset = 'qwerty'
 
 
-# ———————————————————— GAPS ————————————————————
-#
-# Gaps between windows (inner-*) and between monitor edges (outer-*).
-#                 https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
-
+# ~~~~~~~~~~~~~~~ GAPS ~~~~~~~~~~~~~~~ #
 [gaps]
 inner.horizontal = 2
 inner.vertical =   2
-outer.left =       0
-outer.bottom =     0
-outer.top =        0
-outer.right =      0
+outer.left =       2
+outer.bottom =     2
+outer.top =        2
+outer.right =      2
 
 
-# ———————————————————— KEYBINDINGS ————————————————————
-#
-# 'main' binding mode declaration
-# See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
-# 'main' binding mode must be always presented
-# Fallback value (if you omit the key): mode.main.binding = {}
-
+# ~~~~~~~~~~~~~~~ KEYBINDINGS ~~~~~~~~~~~~~~~ #
 [mode.main.binding]
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout

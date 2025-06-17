@@ -1,16 +1,24 @@
-## T Unix Dotfiles
+## T's Unix Dotfiles
 
-This repo tracks my journey of building my ideal development environment!  
+This repo helps track my journey of building my ideal development environment!  
 I like to keep things close to default, portable, and easy to maintain (not to mention looking good :).  
-My aim is minimal friction between having a thought and building it.
+My aim is minimal friction between having a thought and building it.  
 
-### What's In here?
-- Neovim (Kickstart-based, but evolving)
-- Tmux, Ghostty, Aerospace, Zsh configs...
+### whats in here ?
+- [Neovim](https://github.com/neovim/neovim) + [Tmux](https://github.com/tmux/tmux) (my swiss army knives!)
+- [Ghostty](https://github.com/ghostty-org/ghostty), [Aerospace](https://github.com/open-aerospace), [zshrc](https://github.com/ohmyzsh/ohmyzsh) ...
 - Custom scripts
 
-### Preview
+![Dotfiles Preview](https://github.com/TamerHamdan/repo-media/blob/main/dotfiles/dotfilesV2.png?raw=true)
+
+<details><summary><h3>More Screenshots</h3></summary>
+  
+![Dotfiles Preview](https://github.com/TamerHamdan/repo-media/blob/main/dotfiles/dotfilesV2-etc.png?raw=true)
+
+### V1
+
 ![Dotfiles Preview](https://github.com/TamerHamdan/repo-media/blob/main/dotfiles/dotfilesV1.png?raw=true)
+</details>
 
 ### Usage / Installation  
 

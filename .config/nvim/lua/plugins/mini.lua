@@ -9,26 +9,30 @@ return {
 			--  - yinq - [Y]ank [I]nside [N]ext [Q]uote
 			--  - ci'  - [C]hange [I]nside [']quote
 			require("mini.ai").setup({ n_lines = 500 })
-
+			
 			-- Add/delete/replace surroundings (brackets, quotes, etc.)
-			--
-			-- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
-			-- - sd'   - [S]urround [D]elete [']quotes
-			-- - sr)'  - [S]urround [R]eplace [)] [']
+			-- Keybindings:
+			--  - sa  - [S]urround [A]dd (e.g. saiw) to add surrounding to inner word)
+			--  - sd  - [S]urround [D]elete (e.g. sd' to delete quotes)
+			--  - sr  - [S]urround [R]eplace (e.g. sr)' to replace ) with ')
+			--  - sf  - [S]urround [F]ind (to the right)
+			--  - sF  - [S]urround [F]ind (to the left)
+			--  - sh  - [S]urround [H]ighlight
+			--  - sn  - [S]urround update [N]_lines
 			require("mini.surround").setup()
-
-			-- Simple and easy statusline.
-			local statusline = require("mini.statusline")
-			statusline.setup({ use_icons = vim.g.have_nerd_font })
-
-			-- You can configure sections in the statusline by overriding their
-			-- default behavior. For example, here we set the section for
-			-- cursor location to LINE:COLUMN
-			statusline.section_location = function()
-				return "%2l:%-2v"
-			end
-
-			--  Check out: https://github.com/echasnovski/mini.nvim
+			
+			-- Add animations for common Neovim actions
+			require("mini.animate").setup()
+			
+			-- Auto pairs for brackets, quotes, etc.
+			require("mini.pairs").setup()
+			
+			-- Highlight and remove trailing whitespace
+			require("mini.trailspace").setup()
+			
+			-- Automatic highlighting of word under cursor
+			-- Highlights all occurrences of the word under the cursor
+			require("mini.cursorword").setup()
 		end,
 	},
 }

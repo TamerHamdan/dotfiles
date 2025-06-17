@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# This script creates a dev directory structure inside your home directory:
+# Directories : archive, resources, temp, studies, working
 set -e
 
 # Abort on Windows
@@ -21,5 +23,5 @@ for dir in "${FOLDERS[@]}"; do
 done
 
 # Create dev folder structure inside $HOME/dev
-mkdir -p "$HOME/dev"/{archive,configs,resources,temp,studies,working}
+mkdir -p "$HOME/dev"/{archive,resources,temp,studies,working}
 echo "Created dev folder structure at $HOME/dev"
