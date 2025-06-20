@@ -10,7 +10,7 @@ return {
 
 		-- File search
 		vim.keymap.set("n", "<leader><leader>", builtin.find_files, { desc = "search files" })
-		vim.keymap.set("n", "<leader>r", builtin.oldfiles, { desc = "[r]ecent files" })
+		vim.keymap.set("n", "<leader>r", builtin.oldfiles, { desc = "recent files" })
 		vim.keymap.set("n", "<leader>sb", builtin.buffers, { desc = "[s]earch [b]uffers" })
 		vim.keymap.set("n", "<leader>sc", builtin.colorscheme, { desc = "[s]earch [c]olorscheme" })
 

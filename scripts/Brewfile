@@ -10,6 +10,7 @@ brew "python"
 brew "neovim"
 brew "tmux"
 brew "fastfetch"
+brew "lazygit"
 
 brew "gh"
 brew "curl"

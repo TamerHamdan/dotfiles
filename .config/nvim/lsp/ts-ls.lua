@@ -1,3 +1,4 @@
+local blink = require("blink.cmp")
 return {
     cmd = { "typescript-language-server", "--stdio" },
     filetypes = {

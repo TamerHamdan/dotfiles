@@ -46,6 +46,7 @@ alias gpm='git push origin main'
 alias gs='git status'
 alias gpl='git pull origin main'
 alias gd='git diff'
+alias gg='lazygit'
 
 # Language Specific #
 alias py='python3'

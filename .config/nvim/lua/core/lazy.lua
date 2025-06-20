@@ -21,3 +21,10 @@ require("lazy").setup({
     { import = "plugins" },
   },
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "lazy",
+  callback = function()
+    vim.keymap.set("n", "<esc>", "<cmd>q<cr>", { buffer = true, desc = "Close Lazy" })
+  end,
+})
