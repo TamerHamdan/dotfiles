@@ -11,7 +11,6 @@ vim.keymap.set("n", "<leader>qa", ":qa!<CR>", { desc = "Force quit all" })
 vim.keymap.set("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
 vim.keymap.set("n", "\\", "<cmd>Oil --float<cr>", { desc = "Open Oil file explorer" })
 vim.keymap.set("n", "<C-\\>", "<cmd>ToggleTerm direction=float<cr>", { desc = "Open floating terminal" })
-vim.keymap.set("n", "<leader>g", "<cmd>LazyGit<cr>", { desc = "LazyGit" })
 
 -- greatest remaps 
 vim.keymap.set("x", "<leader>p", [["_dP]]) -- paste over selection without losing it

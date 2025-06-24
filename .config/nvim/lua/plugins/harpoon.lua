@@ -7,7 +7,7 @@ return {
     -- REQUIRED
     harpoon:setup()
     -- REQUIRED
-    vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end, { desc = "Add to harpoon" })
+    vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end, { desc = "add to harpoon" })
     vim.keymap.set("n", "<C-e>", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end,
       { desc = "Toggle harpoon menu" })
     vim.keymap.set("n", "<C-h>", function() harpoon:list():select(1) end, { desc = "Harpoon file 1" })

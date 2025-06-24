@@ -1,54 +1,64 @@
-# Taps # 
+# Taps #
 tap "homebrew/bundle"
 tap "nikitabobko/tap"
 
-# Language Support # 
+# Language Support #
+brew "go"
+brew "java"
 brew "lua"
-brew "python" 
+brew "python"
+brew "rust"
 
-# CLI Tools # 
-brew "neovim"
-brew "tmux"
-brew "fastfetch"
-brew "lazygit"
-
-brew "gh"
+# CLI Tools #
 brew "curl"
-brew "tree"
-brew "stow"
+brew "fastfetch"
 brew "figlet"
+brew "gh"
+brew "lazygit"
+brew "neovim"
+brew "stow"
+brew "tmux"
+brew "tree"
 
-# Neovim #
-brew "tree-sitter"
+# Development Tools #
 brew "ripgrep"
+brew "tree-sitter"
 
-# LSP # 
+# Web Development #
+brew "node"
+
+# LSP & Language Servers #
+brew "llvm"
 brew "lua-language-server"
 
-# Git/hub tools #
-brew "gh"
-brew "gitleaks"
-brew "git-filter-repo"
+# Lua Development Tools #
+brew "luacheck"
+brew "selene"
+brew "stylua"
 
-# C Development #  
+# Git Tools #
+brew "git-filter-repo"
+brew "gitleaks"
+
+# C Development #
 brew "autoconf"
 brew "autoconf-archive"
 brew "automake"
 brew "ccache"
 brew "cmake"
-brew "pkgconf"
 brew "nasm"
+brew "pkgconf"
 brew "sdl2"
 brew "utf8proc", args: ["HEAD"]
 
 # Casks #
 cask "aerospace"
-casl "karabiner-elements"
+cask "bluestacks"
+cask "docker"
 cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
+cask "karabiner-elements"
 cask "raycast"
 cask "spotify"
 cask "zen"
-cask "docker"
-cask "bluestacks"
 

@@ -33,6 +33,33 @@ return {
 			-- Automatic highlighting of word under cursor
 			-- Highlights all occurrences of the word under the cursor
 			require("mini.cursorword").setup()
+			
+			-- Git integration for statusline
+			require("mini.git").setup()
+			require("mini.diff").setup()
+			
+			-- Simple statusline without UTF-8 and cursor position
+			require("mini.statusline").setup({
+				use_icons = true,
+				content = {
+					active = function()
+						local mode, mode_hl = MiniStatusline.section_mode({ trunc_width = 120 })
+						local git = MiniStatusline.section_git({ trunc_width = 40 })
+						local diff = MiniStatusline.section_diff({ trunc_width = 75 })
+						local filename = MiniStatusline.section_filename({ trunc_width = 140 })
+						local filetype = vim.bo.filetype ~= '' and vim.bo.filetype or ''
+
+						return MiniStatusline.combine_groups({
+							{ hl = mode_hl, strings = { mode } },
+							{ hl = 'MiniStatuslineDevinfo', strings = { git, diff } },
+							'%<',
+							{ hl = 'MiniStatuslineFilename', strings = { filename } },
+							'%=',
+							{ hl = 'MiniStatuslineFileinfo', strings = { filetype } },
+						})
+					end,
+				},
+			})
 		end,
 	},
 }
