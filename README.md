@@ -60,7 +60,7 @@ sudo pacman -S stow
 Then clone this repo and use [`stow`](https://www.gnu.org/software/stow/) to symlink the dotfiles:
 
 ```bash
-git clone https://github.com/TamerHamdan/dotfiles.git ~
+git clone https://github.com/buzzedowl/dotfiles.git ~
 cd dotfiles
 stow .
 ```
