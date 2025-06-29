@@ -33,26 +33,16 @@ brew install stow
 </details>
 
 <details>
-<summary>Debian/Ubuntu</summary>
+<summary>Linux</summary>
 
 ```bash
-sudo apt-get update
-sudo apt-get install stow
-```
-</details>
+# Ubuntu/Debian
+sudo apt-get update && sudo apt-get install stow
 
-<details>
-<summary>Fedora</summary>
-
-```bash
+# Fedora
 sudo dnf install stow
-```
-</details>
 
-<details>
-<summary>Arch Linux</summary>
-
-```bash
+# Arch Linux
 sudo pacman -S stow
 ```
 </details>
