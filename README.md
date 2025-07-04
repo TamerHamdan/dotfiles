@@ -6,7 +6,7 @@ My aim is minimal friction between having a thought and building it.
 
 ### whats in here ?
 - [Neovim](https://github.com/neovim/neovim) + [Tmux](https://github.com/tmux/tmux) (my swiss army knives!)
-- [Ghostty](https://github.com/ghostty-org/ghostty), [Aerospace](https://github.com/open-aerospace), [zshrc](https://github.com/ohmyzsh/ohmyzsh) ...
+- [Ghostty](https://github.com/ghostty-org/ghostty), [Aerospace](https://github.com/open-aerospace), zshrc ...
 - Custom scripts
 
 ![Dotfiles Preview](https://github.com/TamerHamdan/repo-media/blob/main/dotfiles/dotfilesV2.png?raw=true)
