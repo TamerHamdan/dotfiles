@@ -6,7 +6,7 @@ theme = rose-pine
 # background-blur-radius = 50
 
 # Font 
-font-size = "20"
+font-size = "21"
 font-family = JetBrains Mono Nerd Font
 
 # Title 
