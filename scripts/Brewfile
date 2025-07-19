@@ -61,4 +61,5 @@ cask "karabiner-elements"
 cask "raycast"
 cask "spotify"
 cask "zen"
+cask "godot"
 
